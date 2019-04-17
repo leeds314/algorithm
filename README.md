@@ -21,9 +21,10 @@ git remote update
 git branch -r
 # 원격 브런치를 확인함
 
-git checkout gyu
+git checkout -t origin/gyu
 # 원래는 브런치가 있어야 하지만 브런치를 생성하지 않고 할 경우 
-# 원격에 있는 브런치와 동기화됨
+# 원격에 있는 브런치와 동기화됨 
+# -t 옵션이 원격과 로컬 브랜치 원격
 
 # 이제 자신 작업수행
 - 폴더 만들기(/ps/) <- 각주차별/ps/ 밑에 생성
